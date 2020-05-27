@@ -1,6 +1,12 @@
 *{ 
     box-sizing: border-box;
 }
+
+body {
+    padding-top: 42px;
+    font-family: 'Montserrat', sans-serif;
+}
+
 .container {
     margin-left: auto;
     margin-right: auto;
@@ -9,3 +15,30 @@
 img {
     max-width: 100%;
 }
+
+  .global-navigation {
+    position: fixed;
+    outline: 1px solid black;
+    left: 0;
+    top: 0;
+    right: 0;
+    background: aliceblue;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+} 
+
+.global-navigation__logo {
+    margin-right: auto;
+}
+
+.global-navigation__navigation {
+    display: flex;
+    list-style-type: none;
+}
+
+.global-navigation__navigation li {
+    margin-left: 15px;
+}
+
